@@ -1,13 +1,10 @@
 # Metasploit-for-reconnaissance
 # Metasploit
 Metasploit for reconnaissance in pentesting
-
 # AIM:
-
 To get introduced to Metasploit Framework and to  perform reconnaissance  in pentesting .
 
 ## DESIGN STEPS:
-
 ### Step 1:
 Install kali linux either in partition or virtual box or in live mode
 
@@ -27,9 +24,6 @@ Type help or a question mark "?" to see the list of all available commands you c
 ## OUTPUT:
 ![image](https://github.com/LOKESHKUMARPANCHATCHARAM/Metasploit-for-reconnaissance/assets/119644432/e8c47689-4ca1-4587-a7e3-1578d9dcfc3d)
 Port Scanning: Following command is executed for scanning the systems on our local area network with a TCP scan (-sT) looking for open ports between 1 and 1000 (-p1-1000). msf > nmap -sT 192.168.1810/24 -p1-1000
-
-
-
 
 ## OUTPUT:
 ![image](https://github.com/LOKESHKUMARPANCHATCHARAM/Metasploit-for-reconnaissance/assets/119644432/2f190985-55e4-4b70-bcc2-51d2d1f6989f)
@@ -55,14 +49,6 @@ After scanning, you can also brute force MySQL root account via Metasploit's aux
 set the PASS_FILE parameter to the wordlist path available inside /usr/share/wordlists: set PASS_FILE /usr/share/wordlistss/rockyou.txt Then, specify the IP address of the target machine with the RHOSTS command. set RHOSTS Set BLANK_PASSWORDS to true in case there is no password set for the root account. set BLANK_PASSWORDS true.
 
 ![image](https://github.com/LOKESHKUMARPANCHATCHARAM/Metasploit-for-reconnaissance/assets/119644432/56ff9388-e9f5-4212-bde6-9f4cc4659e8d)
-
-
-
-
-
-
-
-
 
 ## RESULT:
 The Metasploit framework for reconnaissance is  examined successfully
