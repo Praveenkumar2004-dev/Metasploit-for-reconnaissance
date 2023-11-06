@@ -9,17 +9,13 @@ To get introduced to Metasploit Framework and to  perform reconnaissance  in pen
 ## DESIGN STEPS:
 
 ### Step 1:
-
 Install kali linux either in partition or virtual box or in live mode
 
 ### Step 2:
-
 Investigate on the various categories of tools as follows:
 
 ### Step 3:
-
 Open terminal and try execute some kali linux commands
-
 ## EXECUTION STEPS AND ITS OUTPUT:
 ## PROGRAM:
 Find out the ip address of the attackers system
